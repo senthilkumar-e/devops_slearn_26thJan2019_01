@@ -1,0 +1,75 @@
+
+1. Local System :
+
+	1. Vagrant
+	2. Virtualbox
+
+2. Lab :
+	1. Ubuntu 
+
+
+3. Cloud(AWS):
+	1. 
+
+Normal/IAM User Login :
+
+https://kummari.signin.aws.amazon.com/console
+
+Account ID : kummari
+
+UserName   : keshavkummari
+
+PassWord   : redhat@123
+
+
+[ec2-user@vcs ~]$ history
+    1  hostname
+    2  ifconfig 
+    3  #sudo echo 172.31.82.98 vcs.keshavkummari.com >> /etc/hosts
+    4  cat /etc/hosts
+    5  sudo echo 172.31.82.98 vcs.keshavkummari.com >> /etc/hosts
+    6  sudo su
+    7  pwd
+    8  cat /etc/hosts
+    9  hostname
+   10  cat /etc/hosts
+   11  sudo yum install vim wget unzip curl elinks -y
+   12  history
+
+
+
+
+1. Lab/AWS/Local :
+
+Server-1 : vcs.keshavkummari.com
+
+	1. Download, Install java
+	2. Download, Install jre
+	3. Configure Envrionment variables for Java & JRE
+	4. Download, Install and Configure Maven
+	5. Download & Install git
+	6. Configure gitflow
+	7. Download Code From : https://github.com/keshavkummari/java-build.git
+	8. Go to Your Github account & Create a Repository i.e. javacode
+	9. Upload Java Code from java-build folder to javacode repository
+
+Server-2 :
+	1. Download, Install java
+	2. Download, Install jre
+	3. Configure Envrionment variables for Java & JRE
+	4. Download, Install and Configure Maven
+	5. Jfrog
+
+Server-3 :
+	1. Download, Install java
+	2. Download, Install jre
+	3. Configure Envrionment variables for Java & JRE
+	4. Download, Install and Configure Jenkins
+
+Server-4 :
+	1. Download, Install java
+	2. Download, Install jre
+	3. Configure Envrionment variables for Java & JRE
+	4. Download, Install and Configure Apache Tomcat
+
+
