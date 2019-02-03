@@ -1,0 +1,228 @@
+What is DevOps?
+
+Dev(Development) + Ops(Operations)
+
+
+Development Cycles 
+
+INcreased Deployment Frequency
+
+more dependable releases 
+
+
+business Objectives
+
+Dev (Programmer & Tester) + Ops(Monitoring, Linux, Unix, Windows, Network, DBA Admin, etc..)
+
+#-------------------------------------------------------#
+
+DevOps :
+
+1. Operating Systems : 1. Unix(CUI), 2. MacOS(GUI + CUI), 3. Windows(GUI + CUI) & 4. Linux(GUI + CUI) 
+	(System & Networking Administration)
+
+GUI : Graphical User Interface 
+
+CUI : Command User Interface
+
+
+Unix Distributions  : 1. HP-UX by HP, 2. AIX by IBM, 3. Solaris by SM(Oracle) 4.BSD by BSD etc...
+
+Linux Distributions : 1. Redhat - 1. RHEL, 2. Fedora, 3. CENTOS , 2. Debian - Ubuntu, 3. AWS Amazon Linux, 4. Oracle - Oracle Linux
+
+MacOS : Apple
+
+MS : 
+	1. DOS - CUI
+	2. Windows - GUI & CUI
+
+2. Cloud : AWS, AZURE, GCP etc...
+
+
+3. Scripting   : Shell Scripting (Unix & Linux Distributions) & PowerShell(Windows)
+
+4. Programming : Java, .net, Python 
+
+5. SDLC : Agile 
+
+6. DevOps :
+
+
+Agile + DevOps : DevOps CI/CD 
+	
+		1. Code Repository & Version Control  : Github, GitLab, Bitbucket etc.... 
+			- gitbash 
+		2. Code (Java or Python) : IDE Tool(VSTS, Eclips, Pycharm, etc....)
+			- IDE 
+		3. Build : Build Tool : Maven, Gradle, Ant etc...
+
+		4. Test : Junit, Sonarqube, Selinum 
+
+		5. Intergration : 1. Jenkins, 2. Bamboo, 3. Hudson etc....
+
+		6. Deploy & Operate : 1. Docker, 2. Vagrant, 3. CM tools(1.Puppet, 2. Chef, 3. Ansible & Saltstack)
+
+		7. Monitor : 1. Nagios, 2. Splunk, 3. ELK (Elastic Search, Logstash & Kibana)
+
+
+Env : 
+
+1. On-Premises Data Centers 
+
+2. Cloud : AWS , AZURE, GCP etc...
+#-------------------------------------------------------#
+
+1. Operating Systems : 1. Unix(CUI), 2. MacOS(GUI + CUI), 3. Windows(GUI + CUI) & 4. Linux(GUI + CUI) 
+
+Base Machine/Foundation Machine : Laptop/Desktop(Operating System i.e. MacOS, Windows, Linux
+
+Cloud : AWS or AZURE etc...
+
+
+UserName : ubuntu
+
+PassWord : 4etaumky
+
+
+
+
+
+
+
+#-------------------------------------------------------#
+
+
+
+Client : ckk
+
+
+Website : ckk.cloud
+
+
+DevOps :
+
+
+1. Java Developer : 10 
+
+2. QA Team		  : 5
+
+3. Operations(Build & Devploy)  : 5
+
+
+Client Side Scripting : HTML, CSS, JAVA SCRIPT etc...
+
+Server Side Scripting : Java 
+
+
+SDLC : Agile 
+
+
+Agile Way of Working 
+
+Rituals :
+
+1. Sprint Planning  : 2-Week Sprint : Tuesday - Tuesday - 1 Week & Tuesday - Tuesday -2 
+
+2. Daily Standup  : Every Day i.e. Monday to Friday : 15minutes
+
+3. Review		  : 3rd or 4th day of the week or only once in a sprint sprint : 30 or 60 minutes
+
+4. Refinement     : During the sprint - we have to refine current sprint iteams or Product Backlogs
+
+5. End the Sprint (Review, Demo & End Sprint & Start a New Sprint) : 
+
+1. Agile : 
+
+	1. What is Agile?
+
+
+
+2. SCM :
+	1. Git
+	2. Download
+
+
+
+1. Product Owner
+
+2. Scrum Master
+
+3. DevOps team i.e. DevOps engineer
+
+
+
+
+
+WebSite/WebApplication:
+
+www.ckk.cloud
+
+Home About ContactUs ReachUS Services 
+
+
+Home Page  : 3 Sprints - Each Sprint 2-WEEKS
+
+
+Developers
+
+QA
+
+Ops
+
+
+Home About ContactUs ReachUS Services  : 6MONTHS AND FAILED 
+
+
+
+Course : DevOps 
+
+10 Days and Daily 4hrs 
+
+Sprint-1 : Day-1 & Day-2 
+
+1. Agile : 
+
+	1. What is Agile?
+	2. Who uses?
+
+	3. Features of Agile?
+	4. Adv of Agile
+
+
+2. SCM :
+	1. Git
+	2. Download
+	3. Install
+
+	
+	4. Configure
+	5. Commands
+	6. Integration
+
+
+
+Sprint-2 : Day-3 & Day-4 
+
+3. Code
+
+4. Build
+
+Sprint-3 : Day-5 & Day-6 
+
+5. Package
+
+6. Integrate
+
+Sprint-4 : Day-7 & Day-8 
+
+7. Test
+
+8. Deploy
+
+Sprint-5 : Day-9 & Day-10
+
+9. Deliver
+
+10. Monitoring 
+
+
