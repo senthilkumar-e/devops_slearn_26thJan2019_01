@@ -1,0 +1,334 @@
+
+Docker Overview:
+
+- 2013
+
+- Go 
+
+- Delelop
+
+- Ship
+
+- And Run Anywhere 
+#---------------------------------------------------------------#
+Pick the Build from VCS/SCM : Github
+
+	- Github : Raw Code
+	- Binaray Code Repository : Nexus, Jfrog : Binary Code : .war or .jar
+
+#---------------------------------------------------------------#
+Stages :
+
+	1. dev
+	2. tst
+	3. acc
+	4. prd
+
+#---------------------------------------------------------------#
+Download, Install & Configure an Operating System part of Virtualization 
+	- 20 to 45 minutes
+
+Containerization : Docker 
+
+Docker : On Physical Machines : Laptop/Desktop (Windows|MacOS|Linux)
+		 On Virtual Machines  : Laptop/Desktop/Server Hardware (Windows|MacOS|Linux)
+		 On Cloud
+
+#---------------------------------------------------------------#
+Components of Docker :
+
+1. Docker Engine : It is used for Build Docker Images and Create Docker Container
+
+2. Docker Hub : Host your own Docker images or Pull/Download Docker images from a WebSite
+
+3. Docker Compose : Used to define applications using Multiple Docker Containers
+
+#---------------------------------------------------------------#
+Download, Install and Configure Docker on Laptop/Desktop/Server Hardware/Cloud:
+
+Windows|MacOS|Linux
+
+Linux Distribution :
+
+	Ubuntu:
+	1. Package Management : apt-get or apt 
+		- sudo apt install docker.io
+
+# service docker start
+# service docker status
+# service docker start
+
+
+	Redhat/CentOS/AmazonLinux:
+	1. Package Management : yum or rpm 
+
+1. Create Yum Repo : 
+
+# cd /etc/yum.repos.d/
+
+$ vi docker.repo
+[dockerrepo]
+name=Docker Repository
+baseurl=https://yum.dockerproject.org/repo/main/centos/7/
+enabled=1
+gpgcheck=1
+gpgkey=https://yum.dockerproject.org/gpg
+
+2. sudo yum install docker 
+
+# service docker start
+# service docker status
+# service docker start
+
+
+Connect hub.docker.com from LocalMachine(Using CLI):
+
+# docker login
+
+UserName : 
+PassWord : 
+
+#---------------------------------------------------------------#
+
+AWS Cloud :
+
+1. EC2 instance :
+
+2. Utility Softwares : vim curl unzip wget
+
+3. Downloaded & Installed Java
+
+4. Configuring the env variables
+
+#---------------------------------------------------------------#
+
+Docker Compose :
+
+1. Design
+2. Develop
+3. Deploy
+4. Testing/Release
+
+
+STEP-1 : Dockerfile
+
+STEP-2 : docker-compose.yml
+
+STEP-3 : docker-compose up
+
+
+#--------------------------------------------------------------------#
+Configuration Managment :
+#--------------------------------------------------------------------#
+
+- Maintaining consistency 
+- Products Performance
+- Funcational
+- Physical 
+
+Design,
+Operational information throughout its life
+
+
+IT/Software :
+
+Infrastructure team :
+	- Networking
+
+System Admins :
+		- Windows
+		- Linux
+		- Unix
+
+Network Admins :
+		- Windows
+		- Linux
+		- Unix
+
+DBA Admin :
+
+DBA Developers :
+
+Developers : java, .net, python etc...
+
+QA : Manual & Automation
+
+Ops : 
+
+DevOps : 
+
+Stages :
+
+	1. dev
+	2. tst
+	3. acc
+	4. prd
+
+
+Code: Java
+
+2 Tier Architecture
+
+Configuration Managment tools:
+
+Ruby | Pull based 
+1. Chef      :    Master/Server and Agent (Agent is going to pull the changes from Server/Master)
+
+					/etc/configuration
+
+						- yum install telnet
+						- yum install unzip
+						- yum install curl
+						- echo "Welcome to DevOps World" >> /var/www/html/index.html
+2. Puppet
+ 
+Python | Push based 
+3. Ansible       : No Agents
+
+					/etc/configuration.yml
+
+						- yum install telnet
+						- yum install unzip
+						- yum install curl
+						- echo "Welcome to DevOps World" >> /var/www/html/index.html
+
+					server-1
+					#server-2
+					#server-3
+					#server-4	
+
+4. Saltstack     : No Agents
+
+#--------------------------------------------------------------------#
+1. Puppet :
+
+- Puppet Labs in 2005
+- Ruby DSL
+- Apache License 2.0
+- Unix, Windows, Linux
+- Client Server Architecture
+- To manage changes on software systems
+- Used to manage various resources and application software installations
+- Admin, Networking, Build & Deploy and Provisioning instrastructure using CM tool(Puppet)
+- Puppet Open Source | Orachestartion(Comm)
+#--------------------------------------------------------------------#
+2. Chef :
+
+- 2009
+- Ruby & Erlang
+- Ruby DSL
+- Client Server Architecture
+- Unix, Windows, Linux
+- Chef Components :
+	- Chef-Server      : Manage various chef resources, information on nodes, and cookbooks
+	- Chef-Client      : Chef-client is installed on OS, so that it will interact with Chef-Server
+	- Chef-Workstation : Manage all Chef Resources
+
+#--------------------------------------------------------------------#
+3. Ansible :
+
+- 2012 (Acquired by Redhat in 2015)
+- Python
+- Open Source 
+- Orachestartion (Paid)
+- Agentless
+- SSH connection to Server
+- Unix, Windows, Linux
+- YAML
+- Components : 
+	- Ansible Controller
+	- Nodes
+- Powerful/Efficient CM tool
+#--------------------------------------------------------------------#
+4. SaltStack :
+
+- 2011 by Tom Hatch
+- Python
+- Open Source
+- Unix, Windows, Linux
+- Apache 2.0 license
+- YAML
+- Modules can be used to manage Services, Packages, and File Resouces
+#--------------------------------------------------------------------#
+
+
+#----------------------------------#
+NTP :
+#----------------------------------#
+
+# timedatectl
+
+# timedatectl list-timezones
+
+# timedatectl set-timezone Asia/Kolkata
+
+# yum install ntp -y
+
+# ls -lrt /etc/ntp.conf
+
+# Puppet Master:
+puppet-master.ckk.com.pool.ntp.org
+
+# Puppet Agent1:
+puppet-agent1.ckk.com.pool.ntp.org
+
+# Puppet Agent2:
+puppet-agent2.ckk.com.pool.ntp.org
+
+# Puppet Agent3:
+puppet-agent3.ckk.com.pool.ntp.org
+
+# systemctl status ntpd.service
+# systemctl enable ntpd.service
+# systemctl status ntpd.service
+# systemctl start ntpd.service
+# systemctl status ntpd.service
+
+Sync NTP with the System Time:
+
+# ntpdate pool.ntp.org
+
+#----------------------------------#
+Setup Hostname :
+#----------------------------------#
+
+# hostnamectl
+
+# hostnamectl set-hostname "puppet-agent2.ckk.com"
+
+# ls -lrt /etc/hosts
+
+# Puppet Master
+13.115.213.59 puppet-master.ckk.com
+
+# Puppet Agent-1
+52.198.33.251 puppet-agent1.ckk.com 
+
+# Puppet Agent-2
+13.114.50.4 puppet-agent2.ckk.com
+
+# Puppet Agent-3
+54.238.220.150 puppet-agent3.ckk.com
+
+# Puppet Agent-1
+# ping 52.198.33.251
+
+# Puppet Agent-2
+# ping 13.114.50.4
+
+# Puppet Agent-3
+# ping 54.238.220.150
+
+# Puppet Agent-1
+# ping puppet-agent1.ckk.com
+
+# Puppet Agent-2
+# ping puppet-agent2.ckk.com
+
+# Puppet Agent-3
+# ping puppet-agent3.ckk.com
+
+
+#-------------------------------------------------#
+
+
